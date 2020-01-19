@@ -38,9 +38,9 @@
                                 <p style="text-align: justify;">
                                 <?php 
                                     if (strlen($value['isi'])>=50) {
-                                        echo Tools::limit_words(strip_tags($value['isi']),48).' ...';
+                                        echo Tools::limit_words(strip_tags($value['isi']),35).' ...';
                                     }else{
-                                        echo Tools::limit_words(strip_tags($value['isi']),48);
+                                        echo Tools::limit_words(strip_tags($value['isi']),35);
                                     }
                                 ?>
                                 </p>
