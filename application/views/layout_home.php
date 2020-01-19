@@ -9,8 +9,8 @@ $this->tipe_user    = $this->encrypt->decode($this->session->userdata('tipe_user
 $this->foto         = $this->session->userdata('foto');
 $this->jk           = $this->session->userdata('jk');
 ?>
-<head>
-    <meta charset="utf-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title><?=$title?> | <?=$set[0]['nama_website']?></title>
     <meta name="description" content="<?=$set[0]['deskripsi']?>">
@@ -199,7 +199,6 @@ $this->jk           = $this->session->userdata('jk');
                                 </div></li>
                                     </ul>
                                 </nav>
-
                             </div>
                         </div>
                     </div>
