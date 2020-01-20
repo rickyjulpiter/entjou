@@ -44,11 +44,11 @@ $slider1 = $slider2 = $slider;
 </div>
 <!-- Slider 1 Area End Here -->
 
-<div class="container">
-    <h2 class="title-default-left">Kamu Enterpreneur UMKM ?</h2>
-    <h2 class="title-default-left">Punya masalah bisnis yang belum terpecahkan ?</h2>
-    <h2 class="title-default-left">Mari Curhat Bisnis Gratis Bersama Kami.</h2>
-    <a href="" class="btn btn-danger btn-block">Mulai Curhat Bisnis</a>
+<div class="container mt-10" style="margin-top: 40px; margin-bottom:40px">
+    <h2 class="title-default-left" style="text-align: center">Kamu Enterpreneur UMKM ?</h2>
+    <h2 class="title-default-left" style="text-align: center">Punya masalah bisnis yang belum terpecahkan ?</h2>
+    <h2 class="title-default-left" style="text-align: center">Mari Curhat Bisnis Gratis Bersama Kami.</h2>
+    <a href="<?= base_url('curhat') ?>" class="btn btn-lg btn-danger btn-block">Mulai Curhat Bisnis</a>
 </div>
 
 <!-- Courses 1 Area Start Here -->
@@ -254,34 +254,35 @@ $slider1 = $slider2 = $slider;
 <!-- News and Event Area End Here -->
 
 <!-- Program Area Start Here -->
-<div class="brand-area">
+<!-- <div class="brand-area">
     <h2 class="title-default-center">Program</h2>
     <div class="container">
         <div class="rc-carousel" data-loop="true" data-items="4" data-margin="30" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="2000" data-dots="false" data-nav="false" data-nav-speed="false" data-r-x-small="2" data-r-x-small-nav="false" data-r-x-small-dots="false" data-r-x-medium="3" data-r-x-medium-nav="false" data-r-x-medium-dots="false" data-r-small="4" data-r-small-nav="false" data-r-small-dots="false" data-r-medium="4" data-r-medium-nav="false" data-r-medium-dots="false" data-r-large="4" data-r-large-nav="false" data-r-large-dots="false">
             <?php
-            foreach ($program as $key => $value) {
-                $appath = realpath(APPPATH . '../assets/images/program/' . $value['foto']);
-                if (!empty($value['foto']) and file_exists($appath)) {
-                    $image = base_url() . 'assets/images/program/' . $value['foto'];
-                } else {
-                    $image = base_url() . 'assets/images/slider_logo.jpg';
-                }
-                if (!empty($value['link'])) {
-                    $link   = $value['link'];
-                    $target = "target='_blank'";
-                } else {
-                    $link = "#";
-                    $target = "";
-                }
+            // foreach ($program as $key => $value) {
+            //     $appath = realpath(APPPATH . '../assets/images/program/' . $value['foto']);
+            //     if (!empty($value['foto']) and file_exists($appath)) {
+            //         $image = base_url() . 'assets/images/program/' . $value['foto'];
+            //     } else {
+            //         $image = base_url() . 'assets/images/slider_logo.jpg';
+            //     }
+            //     if (!empty($value['link'])) {
+            //         $link   = $value['link'];
+            //         $target = "target='_blank'";
+            //     } else {
+            //         $link = "#";
+            //         $target = "";
+            //     }
             ?>
                 <div class="brand-area-box">
                     <a href="<?= $link ?>" <?= $target ?>><img src="<?= $image ?>" alt="brand"></a>
                 </div>
-            <?php } ?>
+            <?php //} 
+            ?>
 
         </div>
     </div>
-</div>
+</div> -->
 <!-- Program Area End Here -->
 
 <!-- Students Say Area Start Here -->
