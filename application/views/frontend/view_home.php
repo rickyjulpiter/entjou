@@ -58,27 +58,43 @@ $slider1 = $slider2 = $slider;
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Modal Header</h4>
+                    <h4 class="modal-title">Form Curhat Bisnis</h4>
                 </div>
                 <div class="modal-body">
                     <form class="form-horizontal" action="/action_page.php">
                         <div class="form-group">
+                            <label class="control-label col-sm-2" for="email">Nama:</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="email" placeholder="Enter email" name="nama">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="email">No. WA:</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="email" placeholder="Enter email" name="nama">
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label class="control-label col-sm-2" for="email">Email:</label>
                             <div class="col-md-10">
-                                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" name="nama">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-sm-2" for="pwd">Password:</label>
+                            <label class="control-label col-sm-2" for="email">Nama Usaha:</label>
                             <div class="col-md-10">
-                                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                                <input type="text" class="form-control" id="email" placeholder="Enter email" name="nama">
                             </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-md-offset-2 col-md-10">
-                                <div class="checkbox">
-                                    <label><input type="checkbox" name="remember"> Remember me</label>
-                                </div>
+                            <label class="control-label col-sm-2" for="email">Deskripsi Singkat Usaha:</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="email" placeholder="Enter email" name="nama">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                <textarea type="text" class="form-control" id="email" placeholder="Enter email" name="nama">
                             </div>
                         </div>
                         <div class="form-group">
