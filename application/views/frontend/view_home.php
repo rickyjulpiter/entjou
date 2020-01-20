@@ -93,8 +93,11 @@ $slider1 = $slider2 = $slider;
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-4" for="email" style="text-align:left" for="comment">Comment:</label>
-                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                            <label class="control-label col-md-4" for="email" style="text-align:left" for="comment">Curhatan Kamu:</label>
+                            <div class="col-md-8">
+                                <textarea class="form-control" rows="5" id="comment"></textarea>
+
+                            </div>
                         </div>
                         <div class="form-group">
                             <div class="col-md-12">
