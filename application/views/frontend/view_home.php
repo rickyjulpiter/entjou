@@ -141,22 +141,24 @@ $slider1 = $slider2 = $slider;
 </div> -->
 <!-- Lecturers Area End Here -->
 <!-- News and Event Area Start Here -->
-<div class="news-event-area">
+<!-- <div class="news-event-area">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 news-inner-area">
                 <h2 class="title-default-left">Blog</h2>
                 <?php
-                if (!empty($blog)) { ?>
+                // if (!empty($blog)) { 
+                ?>
                     <ul class="news-wrapper wow bounceInUp" data-wow-duration="2s" data-wow-delay=".1s">
                         <?php
-                        foreach ($blog as $key => $value) {
-                            $appath = realpath(APPPATH . '../assets/images/blog/thumbnail/' . $value['foto']);
-                            if (!empty($value['foto']) and file_exists($appath)) {
-                                $image = base_url() . 'assets/images/blog/thumbnail/' . $value['foto'];
-                            } else {
-                                $image = base_url() . 'assets/images/no-image-bp.jpg';
-                            } ?>
+                        // foreach ($blog as $key => $value) {
+                        //     $appath = realpath(APPPATH . '../assets/images/blog/thumbnail/' . $value['foto']);
+                        //     if (!empty($value['foto']) and file_exists($appath)) {
+                        //         $image = base_url() . 'assets/images/blog/thumbnail/' . $value['foto'];
+                        //     } else {
+                        //         $image = base_url() . 'assets/images/no-image-bp.jpg';
+                        //     } 
+                        ?>
                             <li>
                                 <div class="news-img-holder">
                                     <a href="<?= $value['slug'] ?>"><img src="<?= $image ?>" class="img-responsive" style="padding-right: 15px;width: 100%" alt="blog"></a>
@@ -172,25 +174,28 @@ $slider1 = $slider2 = $slider;
                                     <div class="post-date"><?= Tools::tgl_indo($value['waktu_post'], 'l, d F Y H:i') ?> WIB</div>
                                     <span style="text-align: justify;">
                                         <?php
-                                        if (strlen($value['isi']) <= 100) {
-                                            echo Tools::limit_words(strip_tags($value['isi']), 100);
-                                        } else {
-                                            echo Tools::limit_words(strip_tags($value['isi']), 100) . ' ...';
-                                        }
+                                        // if (strlen($value['isi']) <= 100) {
+                                        //     echo Tools::limit_words(strip_tags($value['isi']), 100);
+                                        // } else {
+                                        //     echo Tools::limit_words(strip_tags($value['isi']), 100) . ' ...';
+                                        // }
                                         ?>
                                     </span>
                                 </div>
                             </li>
-                        <?php } ?>
+                        <?php //} 
+                        ?>
                     </ul>
                     <div class="news-btn-holder">
                         <a href="<?= base_url('home/blog') ?>" class="view-all-accent-btn">Lihat Semua</a>
                     </div>
-                <?php } else { ?>
+                <?php //} else { 
+                ?>
                     <div align="center">
                         <b>Tidak Ada Postingan Blog</b>
                     </div>
-                <?php } ?>
+                <?php //} 
+                ?>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 event-inner-area">
                 <h2 class="title-default-left">Pengumuman</h2>
@@ -238,7 +243,7 @@ $slider1 = $slider2 = $slider;
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- News and Event Area End Here -->
 
 <!-- Program Area Start Here -->
