@@ -63,31 +63,31 @@ $slider1 = $slider2 = $slider;
                 <div class="modal-body">
                     <form class="form-horizontal" action="/action_page.php">
                         <div class="form-group">
-                            <label class="control-label col-md-4" for="email">Nama:</label>
+                            <label class="control-label col-md-4" for="email" style="text-align:left">Nama:</label>
                             <div class="col-md-8">
                                 <input type="text" class="form-control" id="email" placeholder="Enter email" name="nama">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-4" for="email">No. WA:</label>
+                            <label class="control-label col-md-4" for="email" style="text-align:left">No. WA:</label>
                             <div class="col-md-8">
                                 <input type="text" class="form-control" id="email" placeholder="Enter email" name="nama">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-4" for="email">Email:</label>
+                            <label class="control-label col-md-4" for="email" style="text-align:left">Email:</label>
                             <div class="col-md-8">
                                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="nama">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-4" for="email">Nama Usaha:</label>
+                            <label class="control-label col-md-4" for="email" style="text-align:left">Nama Usaha:</label>
                             <div class="col-md-8">
                                 <input type="text" class="form-control" id="email" placeholder="Enter email" name="nama">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-4" for="email">Deskripsi Singkat Usaha:</label>
+                            <label class="control-label col-md-4" for="email" style="text-align:left">Deskripsi Singkat Usaha:</label>
                             <div class="col-md-8">
                                 <input type="text" class="form-control" id="email" placeholder="Enter email" name="nama">
                             </div>
