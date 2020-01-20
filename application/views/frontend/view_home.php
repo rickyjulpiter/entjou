@@ -93,8 +93,9 @@ $slider1 = $slider2 = $slider;
                             </div>
                         </div>
                         <div class="form-group">
+                            <label class="control-label col-md-4" for="email" style="text-align:left">Curhatan kamu:</label>
                             <div class="col-md-8">
-
+                                <textarea name="pesan" placeholder="Enter message" required="" spellcheck="false"></textarea>
                             </div>
                         </div>
                         <div class="form-group">
@@ -104,9 +105,9 @@ $slider1 = $slider2 = $slider;
                         </div>
                     </form>
                 </div>
-                <div class="modal-footer">
+                <!-- <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
