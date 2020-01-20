@@ -94,7 +94,7 @@ $slider1 = $slider2 = $slider;
                         </div>
                         <div class="form-group">
                             <label class="control-label col-md-4" for="email" style="text-align:left">Curhatan kamu:</label>
-                            <div class="col-md-8">
+                            <div class="col-md-12">
                                 <textarea name="pesan" placeholder="Enter message" required="" spellcheck="false"></textarea>
                             </div>
                         </div>
