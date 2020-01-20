@@ -94,7 +94,7 @@ $slider1 = $slider2 = $slider;
                         </div>
                         <div class="form-group">
                             <div class="col-md-10">
-                                <textarea type="text" class="form-control" id="email" placeholder="Enter email" name="nama">
+                                <textarea type="text" class="form-control" id="email" placeholder="Enter email" name="nama"></textarea>
                             </div>
                         </div>
                         <div class="form-group">
