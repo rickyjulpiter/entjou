@@ -98,8 +98,8 @@ $slider1 = $slider2 = $slider;
                             </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-md-offset-2 col-md-10">
-                                <button type="submit" class="btn btn-default">Submit</button>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-info btn-block">Submit</button>
                             </div>
                         </div>
                     </form>
