@@ -44,6 +44,13 @@ $slider1 = $slider2 = $slider;
 </div>
 <!-- Slider 1 Area End Here -->
 
+<div class="container">
+    <h2 class="title-default-left">Kamu Enterpreneur UMKM ?</h2>
+    <h2 class="title-default-left">Punya masalah bisnis yang belum terpecahkan ?</h2>
+    <h2 class="title-default-left">Mari Curhat Bisnis Gratis Bersama Kami.</h2>
+    <a href="" class="btn btn-danger btn-block">Mulai Curhat Bisnis</a>
+</div>
+
 <!-- Courses 1 Area Start Here -->
 <!-- <div class="courses1-area">
     <div class="container">
