@@ -61,7 +61,7 @@ $slider1 = $slider2 = $slider;
                     <h4 class="modal-title">Form Curhat Bisnis</h4>
                 </div>
                 <div class="modal-body">
-                    <form class="form-horizontal" action="/action_page.php">
+                    <form class="form-horizontal" action="">
                         <div class="form-group">
                             <label class="control-label col-md-4" for="email" style="text-align:left">Nama:</label>
                             <div class="col-md-8">
