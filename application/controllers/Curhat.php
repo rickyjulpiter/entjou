@@ -22,7 +22,7 @@ class Curhat extends CI_Controller
     {
         $data = array(
             'title'     => 'Curhat',
-            'isi'       => 'backend/view_testimoni'
+            'isi'       => 'backend/view_curhat'
         );
         $this->load->view('layout', $data);
     }
