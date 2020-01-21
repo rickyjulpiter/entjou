@@ -26,6 +26,7 @@ class Home extends CI_Controller
             'pengaturan' => $this->model_admin->select_data('pengaturan'),
             'fasilitator' => $this->model_admin->select_data('users', null, array('tipe_user' => 'guru')),
             'testimoni' => $this->model_admin->select_data('testimoni'),
+            'curhat' => $this->model_admin->select_data('curhat'),
             'program'   => $this->model_admin->select_data('program_partner', 'foto,link', array('kategori' => 'program', 'publish' => 'Y')),
             'partner'   => $this->model_admin->select_data('program_partner', 'foto,link', array('kategori' => 'partner', 'publish' => 'Y')),
 
