@@ -28,7 +28,8 @@
                         <th>Email</th>
                         <th>Nama Usaha</th>
                         <th>Deksripsi</th>
-                        <th width="100">Aksi</th>
+                        <th>Curhat</th>
+                        <!-- <th width="100">Aksi</th> -->
                     </tr>
                 </thead>
             </table>
