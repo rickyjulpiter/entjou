@@ -23,10 +23,11 @@
                 <thead>
                     <tr>
                         <th style="width:50px">No</th>
-                        <th>Nama Siswa</th>
-                        <th>Kelas</th>
-                        <th>Testimoni</th>
-                        <th width="100">Waktu</th>
+                        <th>Nama</th>
+                        <th>No Wa</th>
+                        <th>Email</th>
+                        <th>Nama Usaha</th>
+                        <th>Deksripsi</th>
                         <th width="100">Aksi</th>
                     </tr>
                 </thead>
