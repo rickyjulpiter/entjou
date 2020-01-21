@@ -95,7 +95,7 @@ $slider1 = $slider2 = $slider;
                         <div class="form-group">
                             <label class="control-label col-md-4" for="email" style="text-align:left" for="comment">Curhatan Kamu:</label>
                             <div class="col-md-8">
-                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                                <textarea class="form-control" rows="5" id="comment" placeholder="Apa yang ingin kamu curhatkan"></textarea>
 
                             </div>
                         </div>
