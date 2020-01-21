@@ -150,7 +150,7 @@ $jk         = $this->session->userdata('jk');
 
                                 <li><a href="<?= base_url('user') ?>"><i class="fa fa-user"></i> Pengguna </a></li>
 
-                                <li><a href="<?= base_url('pesanan/curhat') ?>"><i class="fa fa-bell-o"></i> Curhat Bisnis </a></li>
+                                <li><a href="<?= base_url('testimoni/curhat') ?>"><i class="fa fa-bell-o"></i> Curhat Bisnis </a></li>
 
                                 <li><a href="<?= base_url('checkup') ?>"><i class="fa fa-compass"></i> Checkup </a></li>
 
