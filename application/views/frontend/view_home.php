@@ -49,7 +49,7 @@ $slider1 = $slider2 = $slider;
     <!-- <h2 class="title-default-left" style="text-align: center">Kamu Enterpreneur UMKM ?</h2>
     <h2 class="title-default-left" style="text-align: center">Punya masalah bisnis yang belum terpecahkan ?</h2>
     <h2 class="title-default-left" style="text-align: center">Mari Curhat Bisnis Gratis Bersama Kami.</h2> -->
-    <button type="button" class="btn btn-lg btn-danger btn-block" data-toggle="modal" data-target="#myModal">Mulai Curhat Bisnis</button>
+    <button type="button" class="btn btn-lg btn-danger btn-block" data-toggle="modal" data-target="#myModal" style="border-radius:0px 0px 10px 10px">Mulai Curhat Bisnis</button>
 </div>
 
 <div class="container">
