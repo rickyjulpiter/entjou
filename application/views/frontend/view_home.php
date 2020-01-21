@@ -45,9 +45,10 @@ $slider1 = $slider2 = $slider;
 <!-- Slider 1 Area End Here -->
 
 <div class="container mt-10" style="margin-top: 40px; margin-bottom:40px">
-    <h2 class="title-default-left" style="text-align: center">Kamu Enterpreneur UMKM ?</h2>
+    <img src="<?= base_url() . 'assets/images/curhat.png' ?>" alt="">
+    <!-- <h2 class="title-default-left" style="text-align: center">Kamu Enterpreneur UMKM ?</h2>
     <h2 class="title-default-left" style="text-align: center">Punya masalah bisnis yang belum terpecahkan ?</h2>
-    <h2 class="title-default-left" style="text-align: center">Mari Curhat Bisnis Gratis Bersama Kami.</h2>
+    <h2 class="title-default-left" style="text-align: center">Mari Curhat Bisnis Gratis Bersama Kami.</h2> -->
     <button type="button" class="btn btn-lg btn-danger btn-block" data-toggle="modal" data-target="#myModal">Mulai Curhat Bisnis</button>
 </div>
 
