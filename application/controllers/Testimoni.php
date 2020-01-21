@@ -20,8 +20,8 @@ class Testimoni extends CI_Controller
     function index()
     {
         $data = array(
-            'title'     => 'Manajemen Testimoni',
-            'isi'       => 'backend/view_testimoni'
+            'title'     => 'Curhat Bisnis',
+            'isi'       => 'backend/view_curhat'
         );
         $this->load->view('layout', $data);
     }
@@ -33,6 +33,32 @@ class Testimoni extends CI_Controller
             'isi'       => 'backend/view_testimoni'
         );
         $this->load->view('layout', $data);
+    }
+
+    function curhat_data()
+    {
+        $aColumns = array('id', 'nama', 'nowa', 'email', 'namausaha', 'deskripsi', 'curhatan');
+        $sIndexColumn = "id"; //primary key
+        $where = "id!=''";
+        $dt = $this->data('curhat', $where, $sIndexColumn, $aColumns);
+        $nomor_urut = $dt[0];
+        $rResult    = $dt[1];
+        $output     = $dt[2];
+        foreach ($rResult->result_array() as $data) {
+            $output['data'][] = array(
+                $nomor_urut,
+                $data['nama'],
+                $data['nowa'],
+                $data['email'],
+                $data['namausaha'],
+                $data['deskripsi'],
+                $data['curhatan'],
+                "<a href='" . base_url() . $this->uri->segment(1) . "/testimoni_detail/" . $this->encrypt->encode($data['id']) . "' class='btn btn-warning btn-sm' data-original-title='Ubah Data' data-toggle='tooltip'><i class='fa fa-pencil'></i></a>
+                <a href='javascript:;' data-hapus='" . $this->encrypt->encode($data['id']) . "' class='btn btn-danger btn-sm hapus' data-original-title='Hapus Data' data-toggle='tooltip'><i class='fa fa-trash'></i></a>",
+            );
+            $nomor_urut++;
+        }
+        echo json_encode($output);
     }
 
     function testimoni_data()

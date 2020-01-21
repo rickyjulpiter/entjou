@@ -17,14 +17,6 @@ class Pesanan extends CI_Controller
             show_404();
         }
     }
-    function curhat()
-    {
-        $data = array(
-            'title'     => 'Curhat Bisnis',
-            'isi'       => 'backend/view_pesanan'
-        );
-        $this->load->view('layout', $data);
-    }
 
     function index()
     {
