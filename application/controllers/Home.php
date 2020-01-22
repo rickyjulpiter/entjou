@@ -373,7 +373,7 @@ class Home extends CI_Controller
         $this->notif('success', 'Terimakasih sudah curhat bisnis bersama kami. Curhatan kamu akan ditanggapi 1x24 jam oleh KaSha (Kawan Sharing) terbaik kami melalui WA. Semangat ya untuk bisnis kamu, mari kita ciptakan bisnis besar yang mampu membantu banyak orang. Semangat!');
         echo "<script>
             alert('Terimakasih sudah curhat bisnis bersama kami. Curhatan kamu akan ditanggapi 1x24 jam oleh KaSha (Kawan Sharing) terbaik kami melalui WA. Semangat ya untuk bisnis kamu, mari kita ciptakan bisnis besar yang mampu membantu banyak orang. Semangat!');
-            window.location.href='home/redirect_curhat';
+            window.location.href='redirect_curhat';
             </script>";
         // redirect(base_url('home'));
     }
