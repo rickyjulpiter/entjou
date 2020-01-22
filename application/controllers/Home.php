@@ -373,10 +373,16 @@ class Home extends CI_Controller
         $this->notif('success', 'Terimakasih sudah curhat bisnis bersama kami. Curhatan kamu akan ditanggapi 1x24 jam oleh KaSha (Kawan Sharing) terbaik kami melalui WA. Semangat ya untuk bisnis kamu, mari kita ciptakan bisnis besar yang mampu membantu banyak orang. Semangat!');
         echo "<script>
             alert('Terimakasih sudah curhat bisnis bersama kami. Curhatan kamu akan ditanggapi 1x24 jam oleh KaSha (Kawan Sharing) terbaik kami melalui WA. Semangat ya untuk bisnis kamu, mari kita ciptakan bisnis besar yang mampu membantu banyak orang. Semangat!');
-            window.location.href='index';
+            window.location.href='home/redirect_curhat';
             </script>";
         // redirect(base_url('home'));
     }
+
+    function redirect_curhat()
+    {
+        redirect('http://entjou.com/2020/01/1579670122/jasa-pendampingan-entjou.html', 'refresh');
+    }
+
     function komentar_tambah()
     {
         $slug       = $this->input->post('slug');
